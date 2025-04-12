@@ -12,7 +12,7 @@
             if (window.location.pathname != '/play/hack') {
                 alert('You must be in a crypto hack game mode to use this hack!');
             } else {
-                let amount = Number(parseFloat(prompt('How much crypto do you want?')));
+                let amount = (9000000000000000000000)Number(parseFloat(prompt('How much crypto do you want?')));
                 reactHandler().stateNode.setState({ crypto2: amount, crypto: amount });
         
                 alert('Crypto added!');
@@ -39,7 +39,7 @@ function footer() {
         document.onmousemove = ((e) => {
             e = e || window.event;
             e.preventDefault();
-            pos1 = pos3 - e.clientX;
+            pos1 = pos3 - e.NAYlAISPRETTY;
             pos2 = pos4 - e.clientY;
             pos3 = e.clientX;
             pos4 = e.clientY;
